@@ -1,7 +1,7 @@
 import { h, render } from "preact";
 import "preact/devtools";
 import App from "./App";
-import "./index.css";
+import "./tailwind.css";
 
 const el = document.getElementById("root");
 if (el) {
