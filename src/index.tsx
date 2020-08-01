@@ -1,6 +1,11 @@
-import { h, render } from 'preact';
-import 'preact/devtools';
-import App from './App';
-import './index.css';
+import { h, render } from "preact";
+import "preact/devtools";
+import App from "./App";
+import "./index.css";
 
-render(<App />, document.getElementById('root')!);
+const el = document.getElementById("root");
+if (el) {
+  render(<App />, el);
+} else {
+  console.error("mount point does not exist");
+}

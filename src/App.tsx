@@ -1,8 +1,8 @@
-import { h } from 'preact';
-import logo from './logo.png';
-import './App.css';
+import { h, JSX } from "preact";
+import logo from "./logo.png";
+import "./App.css";
 
-function App() {
+function App(): JSX.Element {
   return (
     <div className="App">
       <header className="App-header">
@@ -10,12 +10,7 @@ function App() {
         <p>
           Edit <code>src/App.jsx</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://preactjs.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a className="App-link" href="https://preactjs.com" target="_blank" rel="noopener noreferrer">
           Learn Preact
         </a>
       </header>

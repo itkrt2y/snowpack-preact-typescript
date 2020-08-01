@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 // ESM-HMR Interface: `import.meta.hot`
 
 interface ImportMeta {
